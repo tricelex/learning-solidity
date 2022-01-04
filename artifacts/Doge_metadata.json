@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "catchphrase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zombie.sol": "Doge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zombie.sol": {
+			"keccak256": "0x2866bb28a43197ba8ec3535d4b60ea953f8c69e4ffcfef9b90221219e9fc187d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce830a64016ca03760d0f48e1717aa65fa912fc1da7feca8e290f5d52fd80224",
+				"dweb:/ipfs/QmVTukJh1LCpAq8icQaYk2nJx5aT8bntVvLB6mU5q6XmHh"
+			]
+		}
+	},
+	"version": 1
+}
