@@ -1,13 +1,24 @@
 {
 	"compiler": {
-		"version": "0.8.4+commit.c7e474f2"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "addValues",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -31,7 +42,31 @@
 						"type": "uint256"
 					}
 				],
-				"name": "multiplyCalculator",
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -58,7 +93,7 @@
 		"compilationTarget": {
 			"functions.sol": "learnFunctions"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -71,10 +106,11 @@
 	},
 	"sources": {
 		"functions.sol": {
-			"keccak256": "0x719225cc66d25080c2ca1aa5047bfe45dc82bb5d1e93804f48a50d75fe6f2e15",
+			"keccak256": "0x91614a6ff889e521ea84e8fe81130096300d1711de3643814dd5e0af5c9e9627",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://0035f013e79ed9bada9b2f6cebe8b1a33b33a98056e79edb72142ef53db0929a",
-				"dweb:/ipfs/QmfBB1ytSYpv9XByhXpveYQnzDwFg5UVx3hG97Da78jpjM"
+				"bzz-raw://79b3fc66ec4576be3fe77fc840470c83d71ed9b7baef87966a0f1b073c8367d9",
+				"dweb:/ipfs/QmcV2bJwMEgDQeK9otxSBuahgpz75dwPhBxsPdquVGyWGo"
 			]
 		}
 	},

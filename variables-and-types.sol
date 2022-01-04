@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
 
 contract learnVariables {
@@ -10,7 +11,5 @@ contract learnVariables {
 
     uint wallet =  500;
     bool spend = false;
-    string notifySpend = "You have spet money$
-    
-    ;
+    string notifySpend = "You have spent money$";
 }
